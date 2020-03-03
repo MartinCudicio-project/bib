@@ -7,6 +7,7 @@ async function sandbox (searchLink = 'https://guide.michelin.com/fr/fr/centre-va
 
     const restaurant = await michelin.scrapeRestaurant(searchLink);
 
+    // here const restaurant is A JSON and we log it
     console.log(restaurant);
     console.log('done');
     process.exit(0);

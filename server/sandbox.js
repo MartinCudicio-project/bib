@@ -1,5 +1,6 @@
 /* eslint-disable no-console, no-process-exit */
 const michelin = require('./michelin');
+const maitre = require('./maitre')
 const fs = require('fs');
 
 
@@ -38,9 +39,9 @@ function getListOfRestaurantsSequentiel(){
   })
 })
 }
+
 // getListOfRestaurantsSequentiel()
 // the execution of 'getListOfRestaurants' takes between 6 minutes 30 and 7 minutes 30
-
 
 // this function does not work with many links at the same time. 
 // The limit for my CPU and my connection is 30 links
@@ -61,3 +62,6 @@ function getListOfRestaurantsSequentiel(){
   // const res = restaurants()
   // res.then(r=>console.log(r))
 // }
+
+
+const maitreRestaurant = maitre.get()

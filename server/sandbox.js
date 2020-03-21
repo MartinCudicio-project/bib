@@ -40,28 +40,26 @@ function getListOfRestaurantsSequentiel(){
 })
 }
 
-// getListOfRestaurantsSequentiel()
-// the execution of 'getListOfRestaurants' takes between 6 minutes 30 and 7 minutes 30
+async function getAllRestaurants(){
+  // get michelin bib restaurants
+  const bibRestaurants = await michelin.get();
+  let dataBib = JSON.stringify(bibRestaurants,null,2);
+  fs.writeFileSync('./src/bibRestaurants.json', dataBib);
+  console.log("bibRestaurants has been created")
+  
+  // // get maitre restaurateur restaurants
+  const maitreRestaurants = await maitre.get()
+  let dataMaitre = JSON.stringify(maitreRestaurants,null,2);
+  fs.writeFileSync('./src/maitreRestaurants.json', dataMaitre);
+  console.log("maitreRestaurants has been created")
+}
 
-// this function does not work with many links at the same time. 
-// The limit for my CPU and my connection is 30 links
-// it is therefore not suitable for retrieving the list of all our restaurants
+//getAllRestaurants()
+function manipulateRestaurant(){
+  const bib = require('../src/bibRestaurants.json')
+  var maitre = require('../src/maitreRestaurants.json')
+  var count = Object.keys(bib).length;
+  console.log(count)
+}
 
-// function getListOfRestaurantsAsync(){
-  // console.log("liens recup")
-  // const restaurants = async () => {
-  //   console.log("debut")
-  //   var res;
-  //   const promises = await restaurants_link.map( async link=>{
-  //       res = await sandbox(link)
-  //       return res;
-  //   })
-  //   const restaurantList = await Promise.all(promises);
-  //   return restaurantList;
-  // };
-  // const res = restaurants()
-  // res.then(r=>console.log(r))
-// }
-
-
-const maitreRestaurant = maitre.get()
+manipulateRestaurant()

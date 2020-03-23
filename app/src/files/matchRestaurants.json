@@ -1,0 +1,434 @@
+[
+  {
+    "name": "LES JARDINS DU LEMAN",
+    "adress": {
+      "street": "GRANDE-RUE",
+      "city": "YVOIRE",
+      "zip": "74140"
+    },
+    "phone": "0450728032",
+    "avis": "Au cœur de la cité médiévale, cette vénérable auberge propose des plats gourmands, joliment travaillés, et un sympathique menu gibier à l'automne. Le plus ? Une somptueuse terrasse panoramique sur le lac Léman, où vous vous attablerez les soirs d'été.",
+    "picture": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/43416_pro_3.jpg",
+    "url": "https://guide.michelin.com/fr/fr/auvergne-rhone-alpes/yvoire/restaurant/les-jardins-du-leman"
+  },
+  {
+    "name": "LE GRAND ST-BENOIT",
+    "adress": {
+      "street": "7 PLACE ST-ANDRE",
+      "city": "SAINT-BENOIT-SUR-LOIRE",
+      "zip": "45730"
+    },
+    "phone": "0238351192",
+    "avis": "Une maison chaleureuse, avec une jolie terrasse, au cœur de ce village où repose le poète Max Jacob. Au menu, de délicieux petits plats joliment cuisinés, avec de subtils mariages de saveurs. De quoi trouver l'inspiration !",
+    "picture": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/7722_pro_2.jpg",
+    "url": "https://guide.michelin.com/fr/fr/centre-val-de-loire/saint-benot-sur-loire/restaurant/le-grand-st-benoit"
+  },
+  {
+    "name": "TTOTTA",
+    "adress": {
+      "street": "ESPACE IBARRONDOAN",
+      "city": "SAINT-PEE-SUR-NIVELLE",
+      "zip": "64310"
+    },
+    "phone": "0559470355",
+    "avis": "Sur la route de St-Jean-de-Luz, ce sympathique restaurant fait honneur au Pays basque ! Dans un décor contemporain, on déguste une cuisine du terroir avec de beaux produits du marché. Mention spéciale pour la viande et la charcuterie locales. Le tout accompagné de vins du Sud-Ouest. Une bonne adresse.",
+    "picture": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/371122_pro_3.jpg",
+    "url": "https://guide.michelin.com/fr/fr/nouvelle-aquitaine/saint-pe-sur-nivelle/restaurant/ttotta"
+  },
+  {
+    "name": "LE PETIT ST-THOMAS",
+    "adress": {
+      "street": "25 RUE DE LATTRE-DE-TASSIGNY",
+      "city": "LA GARNACHE",
+      "zip": "85710"
+    },
+    "phone": "0251490599",
+    "avis": "Ce restaurant, affaire familiale depuis vingt ans, est fréquenté par une clientèle d'habitués - ce qui est toujours un gage de qualité. Côté papilles, de belles recettes traditionnelles, parfois revisitées, à l'image de ce cochon de lait farci porcetta, involtini de pied et tête de cochon et pil pil ail citron.",
+    "picture": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/placeholder/online_list_default_0.jpg",
+    "url": "https://guide.michelin.com/fr/fr/pays-de-la-loire/la-garnache/restaurant/le-petit-st-thomas"
+  },
+  {
+    "name": "LA GRIOTTE",
+    "adress": {
+      "street": "3 RUE DES CERISIERS",
+      "city": "SAULES",
+      "zip": "25580"
+    },
+    "phone": "0381571771",
+    "avis": "Un clocher et des champs alentour, une véranda plongeant sur un jardin verdoyant... cette ferme revêt de forts jolis atours ! Tradition, saveurs de saison et spécialités régionales : voilà bien une belle Griotte, tendre et goûteuse. Cerise sur le gâteau : l'accueil souriant et l'addition sans acidité.",
+    "picture": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/197827_pro_10.jpg",
+    "url": "https://guide.michelin.com/fr/fr/bourgogne-franche-comte/saules/restaurant/la-griotte"
+  },
+  {
+    "name": "LA MAISON CARRIER",
+    "adress": {
+      "street": "44 ROUTE DU BOUCHET",
+      "city": "CHAMONIX-MONT-BLANC",
+      "zip": "74400"
+    },
+    "phone": "0450530003",
+    "avis": "Une ferme typique et conviviale, au sein du luxueux Hameau Albert 1er. Goûtez aux petits plats mitonnés, quenelle de brochet, élaborés avec de superbes produits du terroir, boudin noir. Généreux, nobles et savoureux, comme l'étaient les recettes de nos grands-mères...",
+    "picture": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/1944_pro_1.jpg",
+    "url": "https://guide.michelin.com/fr/fr/auvergne-rhone-alpes/chamonix-mont-blanc/restaurant/la-maison-carrier"
+  },
+  {
+    "name": "HISTOIRE ANCIENNE",
+    "adress": {
+      "street": "20 RUE ROYALE",
+      "city": "CALAIS",
+      "zip": "62100"
+    },
+    "phone": "0321341120",
+    "avis": "Au cœur du centre-ville, ce bistrot rétro n'est pas de l'histoire ancienne ! La cuisine traditionnelle et les plats canailles y conservent toute leur fraîcheur : tête de veau sauce gribiche, cassoulet, etc. C'est goûteux, généreux et pas onéreux.",
+    "picture": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/1558_pro_8.jpg",
+    "url": "https://guide.michelin.com/fr/fr/hauts-de-france/calais/restaurant/histoire-ancienne"
+  },
+  {
+    "name": "AU COLOMBIER",
+    "adress": {
+      "street": "126 ALLEE COLOMBIER",
+      "city": "ANSE",
+      "zip": "69480"
+    },
+    "phone": "0474670468",
+    "avis": "En bord de Saône, une belle bâtisse du 18e s., entre guinguette branchée et maison de pays. La cuisine est résolument dans l'air du temps mais n'oublie pas les grands classiques, telles ces belles cuisses de grenouille poêlées. Du goût et du caractère, à déguster sur une terrasse paisible et cosy...",
+    "picture": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/172869_pro_2.jpg",
+    "url": "https://guide.michelin.com/fr/fr/auvergne-rhone-alpes/anse/restaurant/au-colombier"
+  },
+  {
+    "name": "LE ST-GEORGES",
+    "adress": {
+      "street": "4 BOULEVARD MARECHAL-FOCH",
+      "city": "PALAVAS-LES-FLOTS",
+      "zip": "34250"
+    },
+    "phone": "0467683138",
+    "avis": "Dans son restaurant, situé à deux pas du casino, Paul Courtaux ne joue pas à la roulette avec nos papilles. Il réalise une cuisine pétillante et savoureuse, à l'instar de ce faux-filet de bœuf Aubrac, moelle, blette de Costebelle et moutarde... Mention spéciale à la jolie carte des vins de la région et à l'accueil charmant.",
+    "picture": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/placeholder/iStock-542825520.jpg",
+    "url": "https://guide.michelin.com/fr/fr/occitanie/palavas-les-flots/restaurant/le-st-georges431652"
+  },
+  {
+    "name": "LE BASTION",
+    "adress": {
+      "street": "50 BOULEVARD DE LA PROMENADE",
+      "city": "LAGRASSE",
+      "zip": "11220"
+    },
+    "phone": "0468120251",
+    "avis": "Cet ancien bastion médiéval du huitième siècle se situe dans un village au cœur du massif des Corbières, réputé pour son abbaye bénédictine médiévale. On s'installe dans l'une des deux jolies salles rustiques pour déguster une « cuisine avant-garde rurale », inspirée d'Auguste Escoffier mais modernisée, avec de nettes influences régionales - ainsi la bisque de crabe vert, ses foies blonds de volaille et son aïoli. Petite carte de tapas et grande terrasse. Une sympathique adresse.",
+    "picture": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/1186097_pro_3.jpg",
+    "url": "https://guide.michelin.com/fr/fr/occitanie/lagrasse/restaurant/le-bastion"
+  },
+  {
+    "name": "LE CHALET",
+    "adress": {
+      "street": "4 AVENUE DURANDEAU",
+      "city": "AX-LES-THERMES",
+      "zip": "09110"
+    },
+    "phone": "0561642431",
+    "avis": "Tartiflette ariégeoise au bethmale ; ris de veau laqué, ratatouille et jus d'olives Taggiasche... Dans ce Chalet contemporain, Frédéric Debèves revisite le terroir avec talent, jouant sur les saveurs et les textures, signant des assiettes fortes en goût. L'été, direction la terrasse, au-dessus de la rivière. Chambres pour l'étape.",
+    "picture": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/123050_pro_3.jpg",
+    "url": "https://guide.michelin.com/fr/fr/occitanie/ax-les-thermes/restaurant/le-chalet123050"
+  },
+  {
+    "name": "LE LANCELOT",
+    "adress": {
+      "street": "12 RUE DES DEPORTES",
+      "city": "CHILLEURS-AUX-BOIS",
+      "zip": "45170"
+    },
+    "phone": "0238329115",
+    "avis": "Au centre du village, cette accueillante maison fleurie avec jardin et terrasse – et une belle collection de rosiers – est un véritable havre de tranquillité ! La patronne propose ses créations personnelles, avec une spécialité qui met l'eau à la bouche : le pithiviers fondant, coulis de fruits rouges, pistache...",
+    "picture": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/2173_pro_6.jpg",
+    "url": "https://guide.michelin.com/fr/fr/centre-val-de-loire/chilleurs-aux-bois/restaurant/le-lancelot"
+  },
+  {
+    "name": "AUBERGE DE TI-COZ",
+    "adress": {
+      "street": "4 HENT-KOZ",
+      "city": "QUIMPER",
+      "zip": "29000"
+    },
+    "phone": "0298945002",
+    "avis": "Comme un rêve de Bretagne : une charmante auberge en pierre, à la fois rustique, moderne et élégante. Le chef y prépare une savoureuse cuisine, qui fait la part belle aux meilleurs produits du terroir breton. En ancien sommelier passionné, il accompagne ses recettes d’une belle carte des vins (500 références).",
+    "picture": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/7231_pro_13.jpg",
+    "url": "https://guide.michelin.com/fr/fr/bretagne/quimper/restaurant/auberge-de-ti-coz"
+  },
+  {
+    "name": "AU CHAPEAU ROUGE",
+    "adress": {
+      "street": "49 PLACE DU GENERAL-DE-GAULLE",
+      "city": "CHINON",
+      "zip": "37500"
+    },
+    "phone": "0247980808",
+    "avis": "Chapeau Rouge, comme celui que portaient les cochers des messageries royales. Le château de Chinon est, en effet, tout proche de ce restaurant devant lequel murmure une fontaine. On y déguste une belle cuisine fidèle aux saisons, avec des produits du terroir triés sur le volet. Menu truffe en hiver.",
+    "picture": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/2176_plat1_1.jpg",
+    "url": "https://guide.michelin.com/fr/fr/centre-val-de-loire/chinon/restaurant/au-chapeau-rouge"
+  },
+  {
+    "name": "LA MAISON",
+    "adress": {
+      "street": "1 RUE DU 14-JUILLET",
+      "city": "COGNAC",
+      "zip": "16100"
+    },
+    "phone": "0545352177",
+    "avis": "Savoureuse cuisine de saison dans cette belle maison de Cognac, à apprécier, au choix, dans l'une des salles bourgeoises aux pierres apparentes, ou sur la terrasse. Le décor est frais et coloré, à l'image des assiettes. Les menus combinent la tradition à une judicieuse modernité.",
+    "picture": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/515197_pro_5.jpg",
+    "url": "https://guide.michelin.com/fr/fr/nouvelle-aquitaine/cognac/restaurant/la-maison"
+  },
+  {
+    "name": "LE MANOIR DU SPHINX",
+    "adress": {
+      "street": "67 CHEMIN DE LA MESSE",
+      "city": "PERROS-GUIREC",
+      "zip": "22700"
+    },
+    "phone": "0296232542",
+    "avis": "De la salle à manger de cette belle maison, élégante et feutrée, on surplombe le jardin et la côte rocheuse. Une vue panoramique à couper le souffle, qui ne donne que plus de relief à des plats privilégiant les produits locaux ; la cuisine unit terre et mer dans une jolie symphonie gustative.",
+    "picture": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/12376_plat1_1.jpg",
+    "url": "https://guide.michelin.com/fr/fr/bretagne/perros-guirec/restaurant/le-manoir-du-sphinx"
+  },
+  {
+    "name": "LE RECIPROQUE",
+    "adress": {
+      "street": "14 RUE FERDINAND-FLOCON",
+      "city": "PARIS",
+      "zip": "75018"
+    },
+    "phone": "0986378077",
+    "avis": "Niché dans une petite rue derrière la mairie du 18e, ce restaurant est l'œuvre de deux jeunes associés au beau parcours professionnel. L'un, en cuisine, se fend de recettes plutôt traditionnelles, savoureuses et maîtrisées ; l'autre assure en salle un service vivant et courtois. Les prix sont mesurés : un vrai bon plan !",
+    "picture": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/502941_pro_3.jpg",
+    "url": "https://guide.michelin.com/fr/fr/ile-de-france/paris/restaurant/le-reciproque"
+  },
+  {
+    "name": "AR MAEN HIR",
+    "adress": {
+      "street": "15 BIS RUE DU PRIEURE",
+      "city": "LOCRONAN",
+      "zip": "29180"
+    },
+    "phone": "0256101837",
+    "avis": "Pour installer sa première affaire, le jeune chef Thibaud Érard (Top Chef 2018) a choisi le joli village médiéval de Locronan, près de Quimper. Il semble s'épanouir en ces lieux, où il propose une cuisine fraîche et enlevée, sans sophistication inutile. Service sympathique.",
+    "picture": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/1024395_pro_3.jpg",
+    "url": "https://guide.michelin.com/fr/fr/bretagne/locronan/restaurant/ar-maen-hir"
+  },
+  {
+    "name": "AUBERGE DES DEUX MAGOTS",
+    "adress": {
+      "street": "1 PLACE DU BOUFFAY",
+      "city": "LA ROCHE-BERNARD",
+      "zip": "56130"
+    },
+    "phone": "0299906075",
+    "avis": "Deux anciens du domaine de la Bretesche (à Missillac) ont repris cette ancienne auberge. Ils y proposent une cuisine soignée, parfumée et sagement créative, à des prix défiant toute concurrence. Et, par-dessus le marché, le chef fait le pain lui-même... Fraîcheur, saveurs : une renaissance appétissante !",
+    "picture": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/465592_plat1_1.jpg",
+    "url": "https://guide.michelin.com/fr/fr/bretagne/la-roche-bernard/restaurant/auberge-des-deux-magots"
+  },
+  {
+    "name": "M RESTAURANT",
+    "adress": {
+      "street": "47 AVENUE FOCH",
+      "city": "LYON",
+      "zip": "69006"
+    },
+    "phone": "0478895519",
+    "avis": "Voilà un lieu qui met de bonne humeur : pan de mur orangé, fauteuils design, tables en chêne brut, on s'y sent bien... En cuisine, la partition est dirigée par un ancien de Léon de Lyon, qui a su adapter son savoir-faire et son sérieux à l'air du temps, et proposer notamment un appétissant menu du marché : on M !",
+    "picture": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/235634_ZMR_001.jpg",
+    "url": "https://guide.michelin.com/fr/fr/auvergne-rhone-alpes/lyon/restaurant/m-restaurant"
+  },
+  {
+    "name": "COTEAUX ET FOURCHETTES",
+    "adress": {
+      "street": "ROUTE DE VIOLES",
+      "city": "CAIRANNE",
+      "zip": "84290"
+    },
+    "phone": "0490663599",
+    "avis": "Jolie enseigne... Dans cet ancien caveau, le terroir s'exprime aussi bien par l'assiette – savoureuse – que par le flacon – excellent choix de vins locaux. Agréable décor contemporain, terrasse ouverte sur le vignoble.",
+    "picture": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/305304_pro_1.jpg",
+    "url": "https://guide.michelin.com/fr/fr/provence-alpes-cote-dazur/cairanne/restaurant/coteaux-et-fourchettes"
+  },
+  {
+    "name": "LES CAPUCINS",
+    "adress": {
+      "street": "20 FAUBOURG DE MONTBELIARD",
+      "city": "BELFORT",
+      "zip": "90000"
+    },
+    "phone": "0384280460",
+    "avis": "Râble de lapin français en ballotine farcie de citron confit au sel ; œuf cuit à 63°C comme une carbonara ; pied de cochon, foie gras poêlé et sauce Périgueux... Voici les belles spécialités que l'on déguste dans cet hôtel-restaurant installé dans les anciennes brasseries Wagner. Belle carte des vins (près de 500 références).",
+    "picture": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/10228_ZMR_001.jpg",
+    "url": "https://guide.michelin.com/fr/fr/bourgogne-franche-comte/belfort/restaurant/les-capucins"
+  },
+  {
+    "name": "MANOIR DE LA POMMERAIE",
+    "adress": {
+      "street": "L'AUVERE",
+      "city": "VIRE",
+      "zip": "14500"
+    },
+    "phone": "0231680771",
+    "avis": "Non loin de Vire, une maison du 18e s. rustique en apparence, délicate en réalité, avec sa belle véranda qui ouvre sur le parc... Aux fourneaux œuvre un couple à la scène comme à la ville : Masako, japonaise et pâtissière, et Julien, qui affine d'année en année des créations tout en harmonie et en belles trouvailles. Une bonne table !",
+    "picture": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/9609_pro_2.jpg",
+    "url": "https://guide.michelin.com/fr/fr/normandie/vire/restaurant/manoir-de-la-pommeraie"
+  },
+  {
+    "name": "LES CANAILLES MENILMONTANT",
+    "adress": {
+      "street": "15 RUE DES PANOYAUX",
+      "city": "PARIS",
+      "zip": "75020"
+    },
+    "phone": "0143584545",
+    "avis": "En plein cœur de Ménilmuche, juste au-dessus du boulevard, deux associés ont pris place derrière cette façade colorée. Ils proposent de la belle tradition à tous les étages, une cuisine... canaille, bien sûr, travaillée et savoureuse, à l'instar de ce carpaccio de langue de bœuf tiède et sauce gribiche. Bon choix de vin au verre. On se régale.",
+    "picture": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/540782_pro_1.jpg",
+    "url": "https://guide.michelin.com/fr/fr/ile-de-france/paris/restaurant/les-canailles-menilmontant"
+  },
+  {
+    "name": "LE RABELAIS",
+    "adress": {
+      "street": "8 RUE AUGUSTE-FABRE",
+      "city": "SAINT-CHAMAS",
+      "zip": "13250"
+    },
+    "phone": "0490508440",
+    "avis": "Installé dans la jolie salle voûtée du 17e s. d'un vieux moulin à blé, un restaurant que n'aurait pas renié le héros de Rabelais, l'insatiable Gargantua ! On y sert une goûteuse cuisine, ancrée dans les saisons et préparée avec le plus grand soin. Pour faire étape, deux jolies chambres à l'étage.",
+    "picture": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/7758_013.jpg",
+    "url": "https://guide.michelin.com/fr/fr/provence-alpes-cote-dazur/saint-chamas/restaurant/le-rabelais"
+  },
+  {
+    "name": "L'ÉPICURIEN",
+    "adress": {
+      "street": "42 PLACE JEAN-JAURES",
+      "city": "ALBI",
+      "zip": "81000"
+    },
+    "phone": "0563531070",
+    "avis": "C'est l'adresse branchée d'Albi, et à raison ! La déco, au design épuré, témoigne d'un bel esprit nordique ; d'ailleurs le chef est d'origine suédoise, et il concocte de jolies assiettes dans l'air du temps, gourmandes, copieuses et bien ficelées. Ajoutons à cela une carte des vins judicieuse et un service efficace.",
+    "picture": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/66531_pro_2.jpg",
+    "url": "https://guide.michelin.com/fr/fr/occitanie/albi/restaurant/l-epicurien66531"
+  },
+  {
+    "name": "LA FLEUR DE SEL",
+    "adress": {
+      "street": "15 ROUTE DU PORTELIN",
+      "city": "CEVINS",
+      "zip": "73730"
+    },
+    "phone": "0479374998",
+    "avis": "Sur la route des stations, cette maison récente met en avant une appétissante cuisine de saison, servie par des produits de qualité. Côté décor, on a rénové l'ensemble dans une veine moderne, avec toujours la belle cheminée qui crépite au milieu de la pièce... Délicieux.",
+    "picture": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/121851_pro_7.jpg",
+    "url": "https://guide.michelin.com/fr/fr/auvergne-rhone-alpes/cevins/restaurant/la-fleur-de-sel121851"
+  },
+  {
+    "name": "AU RAISIN D'OR",
+    "adress": {
+      "street": "1 RUE DE L'ÉGLISE",
+      "city": "ZIMMERBACH",
+      "zip": "68230"
+    },
+    "phone": "0389710569",
+    "avis": "Cette auberge à la bonne franquette a profité d'un petit relooking, mais n'a rien changé à ses habitudes. Les habitués sont toujours là et se régalent des propositions du jour et des classiques du chef (tête de veau, quenelles de foie, bœuf gros sel, etc. ).",
+    "picture": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/311004_pro_2.jpg",
+    "url": "https://guide.michelin.com/fr/fr/grand-est/zimmerbach/restaurant/au-raisin-d-or"
+  },
+  {
+    "name": "CHEZ MICHEL",
+    "adress": {
+      "street": "10 RUE DE BELZUNCE",
+      "city": "PARIS",
+      "zip": "75010"
+    },
+    "phone": "0144530620",
+    "avis": "Masahiro Kawai, le chef japonais de Chez Michel, joue une partition traditionnelle joyeuse et goûteuse, sans rien s'interdire : du kig ha farz (la fameuse potée bretonne) au paris-brest, en passant par le foie gras rôti, il célèbre les régions – au premier rang desquelles, la Bretagne – avec un soin et une générosité de tous les instants.",
+    "picture": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/122764_001.jpg",
+    "url": "https://guide.michelin.com/fr/fr/ile-de-france/paris/restaurant/chez-michel"
+  },
+  {
+    "name": "LA FORET",
+    "adress": {
+      "street": "22 RUE DE VERDUN",
+      "city": "SENONCHES",
+      "zip": "28250"
+    },
+    "phone": "0237377850",
+    "avis": "Inspirée : voilà l'adjectif qui caractérise le mieux la cuisine de Nicolas Lahouati. Le jeune chef entremêle à merveille son itinéraire professionnel (Thaïlande, Mexique) et des produits locaux de qualité – viandes de la Charentonne, tome et féta du Perche... Ses assiettes sont aussi savoureuses que soignées : on se régale.",
+    "picture": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/333279_pro_2.jpg",
+    "url": "https://guide.michelin.com/fr/fr/centre-val-de-loire/senonches/restaurant/la-foret333279"
+  },
+  {
+    "name": "O'PLAISIR DES SENS",
+    "adress": {
+      "street": "SOUS LA GRANDE VIGNE",
+      "city": "LA ROQUE-GAGEAC",
+      "zip": "24250"
+    },
+    "phone": "0553295853",
+    "avis": "Bruno, chef passionné au beau parcours, imagine ici une cuisine actuelle très soignée, qui fait ressortir le meilleur du terroir : viande achetée sur carcasse, fruits et légumes de maraîchers locaux... Que ce soit côté gastronomique, ou bistrot à midi, on passe un excellent moment.",
+    "picture": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/495710_pro_2.jpg",
+    "url": "https://guide.michelin.com/fr/fr/nouvelle-aquitaine/la-roque-gageac/restaurant/o-plaisir-des-sens"
+  },
+  {
+    "name": "LES ÉPICES CURIENS",
+    "adress": {
+      "street": "3B PLACE DE LA GARE",
+      "city": "ÉCOUVIEZ",
+      "zip": "55600"
+    },
+    "phone": "0329868458",
+    "avis": "En se baladant dans les parages, on passe facilement en Belgique sans s'en rendre compte... mais l'ancienne gare de ce village frontalier, transformée en un sympathique restaurant, saura vous retenir en France. On y déguste une cuisine inspirée et bien tournée, accompagnée de bons petits vins. Beaucoup de goût !",
+    "picture": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/254219_pro_12.jpg",
+    "url": "https://guide.michelin.com/fr/fr/grand-est/couviez/restaurant/les-epices-curiens"
+  },
+  {
+    "name": "VOYAGES DES SENS",
+    "adress": {
+      "street": "33 RUE PRINCIPALE",
+      "city": "TREFFORT",
+      "zip": "01370"
+    },
+    "phone": "0474513994",
+    "avis": "Après avoir côtoyé plusieurs grands chefs (dont Michel Guérard), Nicolas Morelle s'est installé dans ce village charmant pour faire la cuisine qu'il aime. On se régale par exemple d'escargots de Bresse, mousse et chips de topinambour, dans une ambiance familiale, animée et chaleureuse : bons vivants, soyez les bienvenus.",
+    "picture": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/504521_001.jpg",
+    "url": "https://guide.michelin.com/fr/fr/auvergne-rhone-alpes/treffort/restaurant/voyages-des-sens"
+  },
+  {
+    "name": "LE DAUPHIN",
+    "adress": {
+      "street": "29 RUE GEMARE",
+      "city": "CAEN",
+      "zip": "14000"
+    },
+    "phone": "0231862226",
+    "avis": "Amateurs de produits normands, cette adresse est faite pour vous ! Huîtres de la baie d'Isigny-sur-Mer, pigeon de la Suisse normande, andouille de Vire, etc. Les saveurs de la région ont la part belle, mais le chef sait aussi composer des recettes plus originales... Décor élégant et lumineux.",
+    "picture": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/10467_ZMR_001.jpg",
+    "url": "https://guide.michelin.com/fr/fr/normandie/caen/restaurant/le-dauphin10467"
+  },
+  {
+    "name": "AUBERGE DE LA RIVIERE",
+    "adress": {
+      "street": "RUE DU PORT-DE-LA-FOUARNE",
+      "city": "VELLUIRE",
+      "zip": "85770"
+    },
+    "phone": "0251523215",
+    "avis": "Le frémissement de la rivière toute proche, le lierre qui court sur la façade, les oies et les canards qui gambadent : cette auberge vendéenne invite à la rêverie et à la gourmandise. Sur la terrasse, on savoure de beaux produits, accompagnés d'herbes aromatiques et de subtils assaisonnements... Chambres coquettes pour l'étape.",
+    "picture": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/3242_003.jpg",
+    "url": "https://guide.michelin.com/fr/fr/pays-de-la-loire/velluire/restaurant/auberge-de-la-riviere"
+  },
+  {
+    "name": "LA CLOSERIE DES ROSES",
+    "adress": {
+      "street": "455 LA HAUTE-MEILLERAIE",
+      "city": "VARADES",
+      "zip": "44370"
+    },
+    "phone": "0240983330",
+    "avis": "Ce restaurant est ancré depuis 1938 en bord de Loire : un site ravissant, presque en symbiose avec le fleuve... Et de la salle panoramique, on admire l'abbatiale de St-Florent-le-Vieil, illuminée le soir. Le chef achète son poisson aux pêcheurs du coin et concocte une délicieuse cuisine régionale. Le plaisir est complet.",
+    "picture": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/9358_ZMR_001.jpg",
+    "url": "https://guide.michelin.com/fr/fr/pays-de-la-loire/varades/restaurant/la-closerie-des-roses"
+  }
+]

@@ -2,64 +2,58 @@
 const michelin = require('./michelin');
 const maitre = require('./maitre')
 const fs = require('fs');
-
-
-async function sandbox(searchLink = 'https://guide.michelin.com/fr/fr/restaurants/bib-gourmand/'){
-  try {
-    console.log(`🕵️‍♀️  browsing ${searchLink} source`);
-    return await michelin.scrapeRestaurant(searchLink);
-    process.exit(0);
-  } catch (e) {
-    console.error(e);
-    process.exit(1);
-  }
-}
-
-const [,, searchLink] = process.argv;
-// sandbox(searchLink)
-
-function getListOfRestaurantsSequentiel(){
-  const r = michelin.get()
-  r.then(restaurants_link=>{
-  console.log("liens recup")
-  const restaurants = async () => {
-  console.log("debut")
-  var res = [];
-  for(let index=0; index<421;index++){
-    const restaurant = await sandbox(restaurants_link[index])
-    res.push(restaurant)
-  }
-  console.log("end");
-  return res;
-  };
-  const res = restaurants()
-  res.then(r=>{
-    let data = JSON.stringify(r,null,2);
-    fs.writeFileSync('./restaurants.json', data);
-  })
-})
-}
+var stringSimilarity = require('string-similarity');
 
 async function getAllRestaurants(){
   // get michelin bib restaurants
   const bibRestaurants = await michelin.get();
   let dataBib = JSON.stringify(bibRestaurants,null,2);
-  fs.writeFileSync('./src/bibRestaurants.json', dataBib);
+  fs.writeFileSync('./app/src/files/bibRestaurants.json', dataBib);
   console.log("bibRestaurants has been created")
   
-  // // get maitre restaurateur restaurants
+  // get maitre restaurateur restaurants
   const maitreRestaurants = await maitre.get()
   let dataMaitre = JSON.stringify(maitreRestaurants,null,2);
-  fs.writeFileSync('./src/maitreRestaurants.json', dataMaitre);
+  fs.writeFileSync('./app/src/files/maitreRestaurants.json', dataMaitre);
   console.log("maitreRestaurants has been created")
 }
 
-//getAllRestaurants()
 function manipulateRestaurant(){
-  const bib = require('../src/bibRestaurants.json')
-  var maitre = require('../src/maitreRestaurants.json')
-  var count = Object.keys(bib).length;
-  console.log(count)
+
+  var matchRestaurant = []
+  const bib = require('../app/src/files/bibRestaurants.json')
+  var maitre = require('../app/src/files/maitreRestaurants.json')
+  var countBib = Object.keys(bib).length;
+  var countMaitre = Object.keys(maitre).length;
+
+  // we start by creating a list of all the names of the restaurants in the Michelin Guide.
+  var bibName = []
+  for(let i=0; i<countBib;i++){
+    const name = bib[i].name
+    bibName.push(name)
+  }
+
+  // we will compare one by one the name of the master restaurants with the list of bibName
+  // we're going to use the stringSimilarity "findBestMatch" method
+  for(let i=0; i<countMaitre;i++){
+    var matches = stringSimilarity.findBestMatch(maitre[i].name, bibName)
+    // we set an 60% degree of similarity
+    if(matches.bestMatch.rating>0.6){
+      if(maitre[i].adress.zip==bib[matches.bestMatchIndex].adress.zip){
+        if(maitre[i].phone==bib[matches.bestMatchIndex].phone){
+          matchRestaurant.push(bib[matches.bestMatchIndex])
+        }
+        if(maitre[i].phone==null){
+          matchRestaurant.push(bib[matches.bestMatchIndex])
+        }
+      }
+    }
+  }
+  let dataRest = JSON.stringify(matchRestaurant,null,2);
+  fs.writeFileSync('./app/src/files/matchRestaurants.json', dataRest);
+  console.log("matchRestaurants has been created")
 }
 
-manipulateRestaurant()
+// getAllRestaurants()
+// manipulateRestaurant()
+

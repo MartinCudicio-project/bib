@@ -2,7 +2,7 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 
 
-parseRestaurantBib = data => {
+parseRestaurantBib = (data,url) => {
   const $ = cheerio.load(data);
   var name = $('.section-main h2.restaurant-details__heading--title').text();
   name = name.replace(/�/g,"o").replace(/ô/,'o').replace(/ö/g,'o').replace(/ù/g,'u').replace(/û/g,'u').replace(/ü/g,'u').replace(/î/g,"i").replace(/ï/g,"i").replace(/à/g,"a").replace(/â/g,"a").replace(/ä/g,"a").replace(/é/g,"e").replace(/è/g,"e").replace(/ê/g,"e").replace(/ë/g,"e").replace(/ç/g,"c");  
@@ -20,7 +20,9 @@ parseRestaurantBib = data => {
   //const experience = $('#experience-section > ul > li:nth-child(2)').text();
   var avis = $('.section-main .restaurant-details__description--text div p').text();
   //const services = $('div.restaurant-details__services--content ').text();
-  return {name, adress, phone, avis};
+
+  var picture = $('body > main > div.masthead.masthead__gallery.masthead__restaurant.js-masthead-gallery > div.masthead__gallery-wrapper.js-gallery-wrapper > div > div:nth-child(1)').attr('data-image');
+  return {name, adress, phone, avis, picture, url};
 };
 
 const parseLinkBib = (data,restaurantsLink) => {
@@ -37,12 +39,12 @@ const parseLinkBib = (data,restaurantsLink) => {
   return {numberOfPages,restaurantsLink};
 };
 
-scrapeRestaurantBib = async url => {
-  console.log(`🕵️‍♀️  browsing ${url}`);
+scrapeRestaurantBib = async (url,count) => {
+  console.log(`🕵️‍♀️ ${count}  browsing ${url}`);
   const response = await axios(url);
   const {data, status} = response;
   if (status >= 200 && status < 300) {
-    return parseRestaurantBib(data);
+    return parseRestaurantBib(data,url);
   }
   console.error(status);
   return null;
@@ -68,9 +70,12 @@ module.exports.get = async () => {
   const init = await scrapeLinkRestaurantBib("https://guide.michelin.com/fr/fr/restaurants/bib-gourmand/page/1",restaurantsLink)
   for(let i=2; i<=init.numberOfPages; i++){
     await scrapeLinkRestaurantBib(`https://guide.michelin.com/fr/fr/restaurants/bib-gourmand/page/${i}`,restaurantsLink)
+    console.log("page "+i+"/"+init.numberOfPages)
   }
+  console.log("all links are retrieved")
   for(let i=0 ; i<restaurantsLink.length; i++){
-    const restaurant = await scrapeRestaurantBib(restaurantsLink[i])
+    const count = ""+i+"/"+561
+    const restaurant = await scrapeRestaurantBib(restaurantsLink[i],count)
     restaurantsList.push(restaurant)
   }
   return await restaurantsList;

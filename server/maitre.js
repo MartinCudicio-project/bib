@@ -16,7 +16,7 @@ parseRestaurantMaitre = data => {
     if(name!=null){
       name = name.replace(/�/g,"o").replace(/ô/,'o').replace(/ö/g,'o').replace(/ù/g,'u').replace(/û/g,'u').replace(/ü/g,'u').replace(/î/g,"i").replace(/ï/g,"i").replace(/à/g,"a").replace(/â/g,"a").replace(/ä/g,"a").replace(/é/g,"e").replace(/è/g,"e").replace(/ê/g,"e").replace(/ë/g,"e").replace(/ç/g,"c");  
       name = name.toUpperCase()
-      const regex = /\w+( \w+)*/g
+      const regex = /\w+([ ']\w+)*/g
       name = name.match(regex)
       name = name.toString()
       const spl = name.split(',')
@@ -64,8 +64,8 @@ parseLinkMaitre = (data, restaurantsLink) => {
   return {numberOfPages,restaurantsLink};
 };
 
-scrapeRestaurantMaitre = async url => {
-  console.log(`🕵️‍♀️  browsing ${url}`);
+scrapeRestaurantMaitre = async (url,count) => {
+  console.log(`🕵️‍♀️ ${count}  browsing ${url}`);
   const response = await axios(url);
   const {data, status} = response;
   if (status >= 200 && status < 300) {
@@ -101,10 +101,11 @@ module.exports.get = async () => {
   // we get all links from maitre restaurant
   for(let i=2; i<init.numberOfPages; i++){
     await scrapeLinkRestaurantMaitre(i,restaurantsLink)
-    console.log(i)
+    console.log("page "+i+"/"+init.numberOfPages)
   }
   for(let i=0 ; i<restaurantsLink.length; i++){
-    const restaurant = await scrapeRestaurantMaitre(restaurantsLink[i])
+    const count = ""+i+"/"+1360
+    const restaurant = await scrapeRestaurantMaitre(restaurantsLink[i],count)
     restaurantsList.push(restaurant)
   }
   return restaurantsList;
